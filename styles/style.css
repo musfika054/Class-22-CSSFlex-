@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+
+    background-color: lightsalmon;
+    
+    width: 700px;
+    height: 600px;
+    margin: 50px auto;
+
+
+    /* css flex */
+
+    display: flex;
+
+    /* flex-wrap: wrap; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content:space-between; */
+    /* justify-content: space-evenly; */
+
+
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+
+    /* row-gap: 50px; */
+    /* column-gap: 50px; */
+
+
+}
+
+
+.item{
+
+    background-color: deeppink;
+    color: white;
+
+    width: 100PX;
+    height: 100PX;
+
+    text-align: center;
+
+    margin: 2px;
+  
+}
+
+
+.item3{
+   flex-grow: 5;
+   /* flex-shrink: 0 > 3; problem didnot find */
+}
+
+
+
